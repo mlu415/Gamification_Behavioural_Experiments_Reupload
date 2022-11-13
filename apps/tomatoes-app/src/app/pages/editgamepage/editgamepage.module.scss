@@ -1,0 +1,284 @@
+.background {
+  background: linear-gradient(135deg, #8EC0FF 0%, #9DF48F 100%);
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navCard{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 80%;
+  flex-grow: 1;
+  border-radius: 30px;
+  margin: 5%;
+}
+
+.navContainer {
+  width: 5000px;
+}
+
+.title {
+  margin-left: 89px;
+  color: #1e344f;
+  font-size: 60px;
+  text-align: center;
+}
+
+.subheading {
+  color: #1e344f;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mainContainer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  overflow-y: scroll;
+  }
+
+  .mainContainer::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+
+.topDiv {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  margin-bottom: 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gameCard {
+  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 16px;
+}
+
+.changeNameDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gameName {
+  color: #1e344f;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  flex-grow: 1;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.postSurveyDiv {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+  margin-right: 16px;
+}
+
+.filler {
+  width: 93px;
+}
+
+.deleteButton {
+  text-transform: none;
+  border-radius: 200px;
+  background-color: #e9192b;
+  color: white;
+}
+.deleteButton:hover {
+  background-color: #b80010;
+}
+.deleteButtonText {
+  color: #e9192b;
+}
+
+.publishButton {
+  text-transform: none;
+  border-radius: 100px;
+  background-color: #5552ff;
+  color: white;
+}
+.publishButton:hover {
+  background-color: #3634ad;
+}
+.publishButtonText {
+  color: #5552ff;
+}
+
+.iconButton {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.levelTabControl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.circular-icon {
+  padding: 0 0;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.itemCard {
+  margin: 2%;
+  padding: 2%;
+  width: 40%;
+  border-radius: 16px;
+}
+
+.itemName {
+  font-family: Inter, Helvetica, sans-serif;
+  color: #5b5b5b;
+  font-size: 36px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.itemImage {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 10% auto;
+  object-fit: cover;
+}
+
+.uploadButton {
+  width: 45%;
+  height: fit-content;
+  background-color: #5552ff;
+  display: block;
+  margin: 0% auto;
+  text-transform: none;
+}
+.uploadButton:hover {
+  background-color: #3634ad;
+}
+
+.addImageButton {
+  width: 2px;
+  background-color: white;
+}
+.addImageButton:hover {
+  background-color: #3634ad;
+}
+
+.itemImageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameSettingsCard {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 8% 5% 2%;
+  border-radius: 16px;
+  margin-bottom: 80px;
+}
+
+.gameSettingHeaderTextField {
+  font-family: Inter, Helvetica, sans-serif;
+  color: #5b5b5b;
+  font-size: 24px;
+  float: right;
+  padding-right: 25%;
+}
+
+.gameSettingHeaderSliderText {
+  font-family: Inter, Helvetica, sans-serif;
+  color: #5b5b5b;
+  font-size: 24px;
+  float: right;
+  padding-right: 25%;
+  padding-top: 2%;
+}
+
+.levelGif {
+  width: 150px;
+  height: 120px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5%;
+  object-fit: cover;
+}
+.uploadGif {
+  width: 45%;
+  color: white;
+  height: fit-content;
+  background-color: #5552ff;
+  display: block;
+  margin: 0% auto;
+  text-transform: none;
+  text-align: center;
+}
+.uploadGif:hover {
+  background-color: #3634ad;
+}
+
+.levelPagination {
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.labelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(250, 250, 250);
+  height: 40px;
+  width: 70px;
+  margin-left: -14px;
+  margin-right: 10px;
+  border-right: 1px solid rgb(200, 200, 200);
+}
+
+.label {
+  margin-left: 10px;
+  font-size: 12px;
+  color: rgb(180, 180, 180);
+}

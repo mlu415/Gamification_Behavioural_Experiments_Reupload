@@ -1,0 +1,181 @@
+.title {
+  color:#1e344f;
+  font-size: 2rem;
+  text-align: center;
+}
+.body {
+  color:#1e344f;
+  font-size: 1rem;
+  text-align: justify;
+  display: "block"
+}
+.link {
+  color:#1e344f;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-align: left ;
+  display: "block"
+}
+
+.intro {
+  color:#1e344f;
+  font-size: 1rem;
+  text-align: center;
+  display: "block"
+}
+
+.header {
+  color:#1e344f;
+  font-size: 1.5em;
+  text-align: center;
+  display: "block";
+}
+
+.gameNameBox {
+  display: flex;
+  align-content: center;
+  min-width: 50%;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.parentContainer{
+  padding-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  justify-content: space-evenly;
+}
+
+.content{
+  width: 100%;;
+}
+
+.contentParent{
+display: flex;
+flex-direction: column;
+width: 100%;
+overflow-y: scroll;
+// padding-left: 12em;
+}
+
+.contentParent::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+.background {
+  background: linear-gradient(135deg, #8EC0FF 0%, #9DF48F 100%);
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navCard{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 80%;
+  flex-grow: 1;
+  border-radius: 30px;
+  margin: 5%;
+}
+
+.navContainer {
+  width: 5000px;
+}
+
+.profileParentContainer {
+  display: flex;
+  padding-bottom: 1em;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section{
+  padding-bottom: 1em;
+  justify-content: center;
+}
+
+.list{
+  list-style-type: disc;
+  display: list-item;
+}
+
+.listContainer{
+  padding-left: 3em;
+}
+
+.helpImageCard {
+  height: auto;
+  width: 60em;
+}
+
+.helpTextCard {
+  width:100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.bodyCard {
+  // width: 100%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.imageContainer{
+  padding: 2em;
+  height: auto;
+  width: 80%;
+}
+
+.img{
+  height: auto;
+  width: 100%;
+}
+
+.tableHead{
+  background-color: gainsboro;
+}
+
+
+.topDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+
+  margin-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nameBox {
+  align-content: center;
+  min-width: 50%;
+}
+
+.gameSettingsCard {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+

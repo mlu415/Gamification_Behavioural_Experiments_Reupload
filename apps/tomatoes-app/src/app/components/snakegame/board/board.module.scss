@@ -1,0 +1,76 @@
+#root {
+  $background-image1: url('../../../../assets/Items/apple.png');
+  $background-image2: url('../../../../assets/Items/blueberry.png');
+}
+
+.cell {
+  width: min(2vw, 4vh);
+  height: min(2vw, 4vh);
+  background-size: 2vw;
+  outline: 1px solid rgb(134, 154, 189);
+  display: inline-block;
+  overflow: hidden;
+}
+
+.board {
+  box-shadow: var(--outline);
+}
+
+.score {
+  justify-content: right;
+  /* align-content: center; */
+}
+
+.light-green-cell {
+  background-color: #cefad0;
+}
+
+.dark-green-cell {
+  background-color: #abf7b1;
+}
+
+.snake-body {
+  background-image: url('../../../../assets/snake-body.png');
+}
+
+.snake-body-corner {
+  background-image: url('../../../../assets/snake-corner.png');
+}
+
+.snake-body-corner-flip {
+  background-image: url('../../../../assets/snake-corner-flip.png');
+}
+
+.snake-head {
+  background-image: url('../../../../assets/snake-head.png');
+}
+
+.snake-tail {
+  background-image: url('../../../../assets/snake-tail.png');
+}
+
+.ArrowRight {
+  transform: rotate(90deg);
+}
+
+.ArrowLeft {
+  transform: rotate(270deg);
+}
+
+.ArrowDown {
+  transform: rotate(180deg);
+}
+
+.item-cell1 {
+  background-image: var(--background-image1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.item-cell2 {
+  background-image: var(--background-image2);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

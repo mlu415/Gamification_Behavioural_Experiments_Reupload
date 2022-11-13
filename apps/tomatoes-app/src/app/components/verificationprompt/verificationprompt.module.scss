@@ -1,0 +1,48 @@
+.centerCard {
+  padding-top: 2%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 16px;
+}
+
+.verificationText {
+  font-family: Inter, Helvetica, sans-serif;
+  color: #1e344f;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.buttonIcon {
+  padding-right: 16px;
+}
+
+.yesButton {
+  background-color: #5552ff;
+  width: 50%;
+  border-radius: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.yesButton:hover  {
+  background-color: #3634ad;
+}
+
+.noButton {
+  background-color: #e9192b;
+  width: 50%;
+  border-radius: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.noButton:hover {
+  background-color: #b80010;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}

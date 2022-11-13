@@ -1,0 +1,50 @@
+.sideBarCard {
+  width: calc(10em);
+  align-self: flex-start;
+}
+
+.paperbar {
+  width: 10em;
+  position: relative;
+  height: auto;
+  min-height: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  // border-radius: 0 32px 0 0;
+  background-color: #354052;
+  color: white;
+  transition: "none";
+}
+
+.profileIcon svg {
+  font-size: 5em;
+  color: #1e81b0;
+}
+.accountIcon{
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.profileIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomAllign{
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

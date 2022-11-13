@@ -1,0 +1,84 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/tomatoes-app/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/tomatoes-app",
+        "index": "apps/tomatoes-app/src/index.html",
+        "baseHref": "/",
+        "main": "apps/tomatoes-app/src/main.tsx",
+        "polyfills": "apps/tomatoes-app/src/polyfills.ts",
+        "tsConfig": "apps/tomatoes-app/tsconfig.app.json",
+        "assets": [
+          "apps/tomatoes-app/src/favicon.ico",
+          "apps/tomatoes-app/src/assets"
+        ],
+        "styles": ["apps/tomatoes-app/src/styles.scss"],
+        "scripts": [],
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/tomatoes-app/src/environments/environment.ts",
+              "with": "apps/tomatoes-app/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "tomatoes-app:build",
+        "hmr": true,
+        "proxyConfig": "apps/tomatoes-app/proxy.conf.json"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "tomatoes-app:build:development"
+        },
+        "production": {
+          "buildTarget": "tomatoes-app:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/tomatoes-app/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/tomatoes-app"],
+      "options": {
+        "jestConfig": "apps/tomatoes-app/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

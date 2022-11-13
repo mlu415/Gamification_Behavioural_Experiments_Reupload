@@ -1,0 +1,146 @@
+.title {
+  color:#002658;
+  font-size: 60px;
+  text-align: center;
+}
+
+.background {
+  background: linear-gradient(135deg, #8EC0FF 0%, #9DF48F 100%);
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.lineDiv {
+  padding-bottom: 16px;
+  border-bottom: 2px solid lightgray;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.game-list-grid {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding: 2% 2%;
+}
+
+.grid-header{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.game-list-header {
+  background-color: white;
+  flex-grow: 1;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 10%;
+}
+
+.scrollDiv{
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+.scrollDiv::-webkit-scrollbar {
+  display: none;
+}
+
+
+.list-padding {
+  align-content: center;
+  align-self: left;
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+.list-padding-center {
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  direction: column;
+  padding-bottom: 1em;
+}
+
+.list-text {
+  padding-top: 0.5em;
+}
+
+
+
+.detail-button-container {
+  align-content: center;
+  text-align: right;
+  justify-content: right;
+}
+
+.navContainer {
+  width: 5000px;
+}
+
+.topDiv {
+  margin-top: 3%;
+}
+
+.filler {
+  width:5000px;
+}
+
+.new-button {
+  text-align: center;
+  width: 100px;
+  font-size: 1em;
+  background-color: #5552ff;
+  text-transform: none;
+  border-radius: 100px;
+}
+
+.new-button:hover {
+  background-color: #3634ad;
+}
+
+.details-button{
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1em;
+  background-color: #5552ff;
+  border-radius: 100px;
+  text-transform : none;
+}
+
+.details-button:hover {
+  background-color: #3634ad;
+}
+
+.nameBox {
+  /* display: flex; */
+  align-content: center;
+  min-width: 50%;
+}
+
+
+.navCard{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 80%;
+  flex-grow: 1;
+  border-radius: 30px;
+  margin: 5%;
+}
+
+.player-header-text {
+  color: #5b5b5b;
+  font-size: 1.5em;
+  text-align: left;
+  display: inline-block;
+}

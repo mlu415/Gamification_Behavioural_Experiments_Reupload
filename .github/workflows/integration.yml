@@ -1,0 +1,32 @@
+name: PR Integrations
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Create env file
+        run: echo -E 'FIREBASE_SECRET=${{ secrets.FIREBASE_SECRET }}' >> .env
+
+      - name: Run Tests
+        run: npx nx run-many --all --target=test
+
+      - name: Build API
+        run: npx nx build api --prod
+
+      - name: Build App
+        run: npx nx build --prod

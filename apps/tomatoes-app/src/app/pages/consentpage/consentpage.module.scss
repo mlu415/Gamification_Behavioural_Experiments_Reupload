@@ -1,0 +1,94 @@
+.background {
+  background: linear-gradient(135deg, #8EC0FF 0%, #9DF48F 100%);
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navCard{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 80%;
+  flex-grow: 1;
+  border-radius: 30px;
+  margin: 5%;
+  overflow-y: scroll;
+  }
+
+  .navCard::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+
+.navContainer {
+  width: 100%;
+}
+
+.title{
+  color:#1e344f;
+  font-size: 3rem;
+  text-align: justify;
+  display: "block"
+}
+
+.italic{
+  color:#1e344f;
+  font-size: 0.75rem;
+  text-align: justify;
+  display: "block";
+  font-style: italic;
+}
+
+.imgContainer{
+  height: 30em;
+  width: 70%;
+  align-items: center;
+  padding-left: 3em;
+}
+
+.img{
+  height: auto;
+  width: 100%;
+}
+
+.consentContainer{
+  width: 100%;
+  padding: 2em;
+}
+
+
+.text {
+  color:#1e344f;
+  font-size: 0.75rem;
+  text-align: justify;
+  display: "block"
+}
+
+.list{
+  list-style-type: disc;
+  display: list-item;
+}
+
+.new-button {
+  width: 140px;
+  font-size: 1em;
+  background-color: #5552ff;
+  text-transform: none;
+  border-radius: 100px;
+}
+
+.new-button:hover {
+  background-color: #3634ad;
+}
+
+.buttonContainer{
+  width: 100%;
+  padding-top: 2em;
+}

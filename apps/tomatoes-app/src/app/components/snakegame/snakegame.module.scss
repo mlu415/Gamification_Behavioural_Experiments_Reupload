@@ -1,0 +1,91 @@
+.snake-game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.game-and-score{
+  width: 80%;
+  padding-top: 2em;
+  padding-left: 32px;
+}
+
+.progressBar {
+  margin-left: 24px;
+  height: 24px;
+  border-radius: 100px;
+  width: 200px;
+}
+
+.progressBarNumber {
+  padding-left: 8px;
+  min-width: 35px;
+}
+
+.score-card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2em;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2em;
+}
+
+.sound-pane {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.game-card {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.game-container {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.small-container {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.snake-dot {
+  background-color: black;
+}
+
+.surveyButton {
+  font-size: 1em;
+  background-color: #5552ff;
+  text-transform: none;
+  border-radius: 100px;
+}
+.surveyButton:hover{
+  background-color: #3634ad;
+}
+.dataButton {
+  font-size: 1em;
+  background-color: #5552ff;
+  text-transform: none;
+  border-radius: 100px;
+}
+.dataButton:hover{
+  background-color: #3634ad;
+}
+
+.mute-button {
+  margin: 2em;
+}
+

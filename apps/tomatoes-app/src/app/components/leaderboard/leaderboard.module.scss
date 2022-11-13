@@ -1,0 +1,57 @@
+.leaderboard {
+  height: 100vh;
+  width: 15vw;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+
+.leaderboard-card {
+  padding: 1em;
+  height: 100%;
+  border-radius: 0;
+}
+
+.leaderboard-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 0 0 0 0;
+}
+
+.leaderboardImage {
+  margin-right: 32px;
+}
+
+
+.leaderboard-subdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.leaderboard-title{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: calc(16px + 0.7vw);
+  text-align: center;
+}
+
+.leaderboard-title-card {
+  margin-bottom: 0.5em;
+  border-radius: 4px 4px 0 0;
+}
+
+.score-text{
+  padding-left: 30%;
+}
+
+.score-row{
+  width: 100%;
+  margin-bottom: 0.5em;
+  justify-content: space-between;
+}

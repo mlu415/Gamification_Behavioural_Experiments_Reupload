@@ -1,0 +1,22 @@
+.centerCard {
+  padding: 2%;
+  justify-content: center;
+}
+
+.signInText {
+  font-family: Inter, Helvetica, sans-serif;
+  color: #1e344f;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.sendLoginButton {
+  font-size: 24px;
+  padding: 24px 160px;
+  color: #1e344f;
+  height: 2%;
+}
+.sendLoginButton:hover {
+  background-color: lightgrey;
+}

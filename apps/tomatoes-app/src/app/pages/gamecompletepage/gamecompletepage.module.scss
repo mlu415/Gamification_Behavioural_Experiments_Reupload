@@ -1,0 +1,98 @@
+.background {
+  background: linear-gradient(135deg, #8EC0FF 0%, #9DF48F 100%);
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navCard{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 80%;
+  flex-grow: 1;
+  border-radius: 30px;
+  margin: 5%;
+}
+
+.navContainer {
+  width: 5000px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+
+.title{
+  padding: 5%;
+  text-align: center;
+}
+
+.small-container {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.itemCard {
+  margin: 2%;
+  padding: 2%;
+}
+
+.centeredContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.centerCard{
+  width: max(45%, 300px);
+  padding: 40px;
+  justify-content: center;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+
+.t1 {
+  color: #1e344f;
+  font-size: calc(32px + 4vw);
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.t2 {
+  color: #4a3aff;
+  font-size: calc(16px + 2vw);
+  font-weight: bold;
+}
+
+.details-button{
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1em;
+  background-color: #5552ff;
+  border-radius: 100px;
+  text-transform : none;
+}
+
+.details-button:hover {
+  background-color: #3634ad;
+}

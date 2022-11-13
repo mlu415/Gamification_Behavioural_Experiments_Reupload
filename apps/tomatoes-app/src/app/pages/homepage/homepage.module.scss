@@ -1,0 +1,79 @@
+.centered {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.homePageImage {
+  background-image: url('../../../assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+}
+
+.navLoginButton{
+  font-size: calc(8px + 1vw);
+  background-color: #5552FF;
+  padding: 3vh 8vw;
+}
+.navLoginButton:hover{
+  background-color: #3634ad;
+}
+
+.navRegisterButton{
+  font-size: calc(8px + 1vw);
+  background-color: #34B951;
+  padding: 3vh 8vw;
+}
+.navRegisterButton:hover{
+  background-color: #2b8f41;
+}
+
+.centeredContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.t1 {
+  color: #1e344f;
+  font-size: calc(16px + 4vw);
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.t2 {
+  color: #4a3aff;
+  font-size: calc(16px + 4vw);
+  font-weight: bold;
+}
+.t3 {
+  margin-top: 5vh;
+  color: #818790;
+  font-size: calc(8px + 1vw);
+  font-weight: normal;
+}
