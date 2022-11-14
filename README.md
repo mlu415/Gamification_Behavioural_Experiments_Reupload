@@ -1,6 +1,6 @@
-# Tomatoes
+# Gamification of Behavioural Experiments
 
-Welcome to the Tomatoes project, created by SOFTENG 761 Team 10 students from The University of Auckland.
+Welcome to the gamification of behavioural experiments project, created by SOFTENG 761 Team 10 students from The University of Auckland.
 
 ## Introduction
 
