@@ -1,4 +1,4 @@
-# Gamification of Behavioural Experiments
+# Gamification of Behavioural Experiments (REUPLOAD FROM PRIVATE REPO WITH PERMISSION FROM PO)
 
 Welcome to the gamification of behavioural experiments project, created by SOFTENG 761 Team 10 students from The University of Auckland.
 
