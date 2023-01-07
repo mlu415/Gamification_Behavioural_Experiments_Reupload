@@ -6,7 +6,7 @@ Welcome to the gamification of behavioural experiments project, created by SOFTE
 
 Do you want to run gamified behavioural experiments?
 
-The project involves the creation of a web application where researchers can create and share a customised game. Actions by the game user will be logged and sent to the database, where researchers can view, download, and perform analysis on human learning behaviour.
+The project involves the creation of a web application where researchers from the University of Auckland's Psychology Department can create and share a customised game. Actions by the game user will be logged and sent to the database, where researchers can view, download, and perform analysis on human learning behaviour.
 
 Check out the live version [here](http://d390os3xijobxf.cloudfront.net/)
 
